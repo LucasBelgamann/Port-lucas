@@ -1,10 +1,13 @@
 import React from 'react'
 import './App.css'
+import NavBar from './header/Header'
+import Main from './main/Main'
 
 function App() {
   return (
     <div className="App">
-      <h1>oi gaa</h1>
+      <NavBar />
+      <Main />
     </div>
   )
 }
