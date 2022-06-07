@@ -27,12 +27,6 @@ class Projetos extends React.Component {
             <div>
               <i class="fa-solid fa-folder-open"></i>
             </div>
-            <div>
-              <i class="fa-solid fa-folder-open"></i>
-            </div>
-            <div>
-              <i class="fa-solid fa-folder-open"></i>
-            </div>
           </div>
         </div>
       </section>

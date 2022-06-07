@@ -3,14 +3,14 @@
     padding: 10px;
     background-color: #000000;
     width: 50%;
-    margin: 5rem auto;
+    margin: 0 auto 8rem;
   }
   
   .projetos {
     height: 110vh;
     width: 100vw;
     margin: 8rem auto;
-    background-color: #000000;
+    background-color: white;
   }
   
   .projetos i {
@@ -18,7 +18,8 @@
     color: #F2B138;
     padding: 1rem;
     border-radius: 15%;
-    margin: 1rem auto;
+    margin: 1rem;
+    background-color:  #dee1dc;;
   }
   
   .projetos-lista {
@@ -29,5 +30,24 @@
   }
   
   .gambis {
-    height: 3vh;
+    height: 1vh;
+  }
+
+  @media  screen and (min-width: 1200px) {
+    .projetos i {
+      font-size: 20rem;
+      padding: 3rem;
+      margin: 2rem;
+    }
+    .projetos-lista {
+      width: 80vw;
+      margin: auto;
+    }
+    .projetos i:hover {
+      transform: rotate(2deg);
+    }
+    .projetos h1 {
+      margin-top: 5rem;
+      width: 25%;
+    }
   }
