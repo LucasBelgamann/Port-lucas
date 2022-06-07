@@ -1,0 +1,73 @@
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 75.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: black;
+    font-size: 2rem;
+}
+
+.nav_brand {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav_item a:hover  {
+    background-color: red;
+    border-radius: 10%;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.nav_toggler div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background-color: white;
+}
+
+.nav_toggler {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .nav_toggler {
+        display: block;
+    }
+    .nav_menu {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 50%;
+        background-color: black;
+        flex-direction: column;
+        transform: translateX(100%);
+    }
+}
+
+.nav_active {
+    transform: translateX(0);
+}
