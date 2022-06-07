@@ -1,0 +1,53 @@
+.projetos h1 {
+    border: 7px solid red;
+    padding: 10px;
+    background-color: #000000;
+    width: 50%;
+    margin: 0 auto 8rem;
+  }
+  
+  .projetos {
+    height: 110vh;
+    width: 100vw;
+    margin: 8rem auto;
+    background-color: white;
+  }
+  
+  .projetos i {
+    font-size: 10rem;
+    color: #F2B138;
+    padding: 1rem;
+    border-radius: 15%;
+    margin: 1rem;
+    background-color:  #dee1dc;;
+  }
+  
+  .projetos-lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gambis {
+    height: 1vh;
+  }
+
+  @media  screen and (min-width: 1200px) {
+    .projetos i {
+      font-size: 20rem;
+      padding: 3rem;
+      margin: 2rem;
+    }
+    .projetos-lista {
+      width: 80vw;
+      margin: auto;
+    }
+    .projetos i:hover {
+      transform: rotate(2deg);
+    }
+    .projetos h1 {
+      margin-top: 5rem;
+      width: 25%;
+    }
+  }

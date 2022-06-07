@@ -1,0 +1,91 @@
+.espaco {
+    height: 3vh;
+  }
+  
+  .hards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem
+  }
+  
+  .hards {
+    margin-top: 7rem;
+    background-color: #000000;
+    height: 170vh;
+  }
+  
+  .hards h1 {
+    border: 6px solid red;
+    padding: 10px;
+    width: 50%;
+    margin: 8rem auto;
+  }
+  
+  .hards-container i {
+    font-size: 12rem;
+    color: #F2F2F2;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15%;
+    margin: 2rem;
+  }
+  
+  .hards-container h4 {
+    text-align: center;
+    color: white;
+    font-size: 20px
+  }
+  
+  .react i {
+    color:aqua;
+  }
+  
+  .js i {
+    color: yellow;
+  }
+  
+  .html i {
+    color: red;
+  }
+  
+  .css i {
+    color:dodgerblue;
+  }
+  
+  .node i {
+    color: green;
+  }
+
+  .git-hub i {
+    color: black;
+  }
+
+  .rtl img {
+    width: 30vw;
+    color: #F2F2F2;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15%;
+    margin: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .hards {
+      height: 140vh;
+    }
+    .hards-container {
+      width: 70vw;
+      margin: auto;
+    }
+    .hards h1 {
+      width: 25vw;
+    }
+    .hards-container i {
+      font-size: 23rem;
+    }
+    .rtl img {
+      width: 25rem;
+    }
+  }
