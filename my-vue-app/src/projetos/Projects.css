@@ -1,0 +1,33 @@
+.projetos h1 {
+    border: 7px solid red;
+    padding: 10px;
+    background-color: #000000;
+    width: 50%;
+    margin: 5rem auto;
+  }
+  
+  .projetos {
+    height: 110vh;
+    width: 100vw;
+    margin: 8rem auto;
+    background-color: #000000;
+  }
+  
+  .projetos i {
+    font-size: 10rem;
+    color: #F2B138;
+    padding: 1rem;
+    border-radius: 15%;
+    margin: 1rem auto;
+  }
+  
+  .projetos-lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gambis {
+    height: 3vh;
+  }

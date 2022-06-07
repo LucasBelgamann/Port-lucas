@@ -1,14 +1,15 @@
 .about {
-    height: 120vh;
+    height: 105vh;
     width: 100vw;
     margin: 0 auto;
     background-color: white;
+    margin:  auto;
   }
   
   .about h1 {
     border: 6px solid red;
     padding: 10px;
-    width: 70%;
+    width: 50%;
     margin: 20px auto;
     color: white;
     background-color: black;
@@ -17,10 +18,11 @@
   .about p {
     font-size: 2rem;
     color: black;
-    margin: 0 30px;
+    margin: 0 auto;
     padding: 2rem;
     text-align: justify;
     background-color: #dee1dc;
+    width: 70vw;
   }
   
   .gambis {
@@ -28,6 +30,9 @@
   }
 
   @media screen and (min-width: 1200px) {
+    .about {
+      height: 135vh;
+    }
     .about h1 {
         margin: 5rem auto;
         width: 25vw;

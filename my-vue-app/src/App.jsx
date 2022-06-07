@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from './header/Header';
 import Main from './main/Main';
 import About from './about/About';
+import Projetos from './projetos/Projects';
+import Hard from './hards skills/HardSkills';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <NavBar />
       <Main />
       <About />
+      <Hard />
+      <Projetos />
     </div>
   )
 }
