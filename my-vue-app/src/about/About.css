@@ -16,7 +16,7 @@
   }
   
   .about p {
-    font-size: 2rem;
+    font-size: 4rem;
     color: black;
     margin: 0 auto;
     padding: 2rem;
@@ -34,7 +34,7 @@
       height: 135vh;
     }
     .about h1 {
-        margin: 5rem auto;
+        margin: 6rem auto;
         width: 25vw;
     }  
     .about p {
@@ -45,13 +45,20 @@
       }
   }
   
-  @media screen and (min-width: 390px) {
+  @media screen and (max-width: 390px) {
       .about h1 {
         width: 70%;
-        margin-top: 20%;
+        margin-top: 6rem;
+        
       }
       .about {
-        height: 130vh;
+        height: 120vh;
+      }
+      .about p {
+        width: 95vw;
+        font-size: 2rem;
+        margin: auto;
+        padding: 2rem;
       }
   }
   
