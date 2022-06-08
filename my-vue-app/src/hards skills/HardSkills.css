@@ -89,3 +89,21 @@
       width: 25rem;
     }
   }
+  @media screen and (min-width: 390px) {
+    .hards h1 {
+      width: 80%;
+    } 
+    .hards-container i {
+      font-size: 7rem;
+    }
+    .hards-container {
+      width: 90%;
+      margin: auto;
+    }
+    .hards {
+      height: 130vh;
+    }
+    .rtl img {
+      width: 10rem;
+    }
+  }
