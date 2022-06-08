@@ -25,6 +25,11 @@ a {
     font-size: 2rem;
 }
 
+.nav_pai {
+    position: fixed;
+    width: 100%;
+}
+
 .nav_brand {
     text-transform: uppercase;
     font-weight: bold;
@@ -47,6 +52,7 @@ a {
     height: 0.2rem;
     margin: 0.4rem;
     background-color: white;
+    transition: 0.4s ease-in;
 }
 
 .nav_toggler {
@@ -71,3 +77,18 @@ a {
 .nav_active {
     transform: translateX(0);
 }
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+
+.toggle.line2 {
+    opacity: 0;
+}
+
+
+.toggle .line3 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+

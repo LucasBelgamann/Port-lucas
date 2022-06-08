@@ -9,6 +9,7 @@ function NavBar() {
         : setActive('nav_menu');
     }
     return (
+        <div className="nav_pai">
         <nav className="nav">
             <a href="#" className="nav_brand">Portfólio</a>
             <ul className={ active }>
@@ -23,6 +24,7 @@ function NavBar() {
                 <div className="line3"></div>
             </div>
         </nav>
+        </div>
     )
 }
 
