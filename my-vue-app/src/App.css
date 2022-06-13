@@ -5,6 +5,7 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
+
 html {
-  width: 100%;
+  min-width: 100%;
 }

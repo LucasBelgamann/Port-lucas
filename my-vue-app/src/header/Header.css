@@ -28,6 +28,7 @@ a {
 .nav_pai {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .nav_brand {
@@ -60,7 +61,7 @@ a {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .nav_toggler {
         display: block;
     }
