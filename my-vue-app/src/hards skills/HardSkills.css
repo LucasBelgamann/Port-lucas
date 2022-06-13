@@ -100,7 +100,7 @@
       margin: auto;
     }
     .hards {
-      height: 190vh;
+      max-height: 200vh;
       width: 100%;
     }
     .rtl img {
