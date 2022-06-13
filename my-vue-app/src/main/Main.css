@@ -4,27 +4,12 @@
     margin: 15% 25% 10%;
   }
   
-  .nav li a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .nav i {
-    color: white;
-    font-size: 25px;
-  }
-  
-  .nav a:active {
-    background-color: #402110;
-    padding: 2px;
-    border-radius: 15%;
-  }
-  
   .name h2, h1 {
     color: white;
     font-size: 45px;
     text-align: center;
     font-weight: 1000;
+    margin: auto;
   }
   
   .name h1 {
@@ -32,7 +17,7 @@
   }
   
   .principal {
-    height: 100vh;
+    width: 100%;
     background-color: black;
   }
 
@@ -44,6 +29,7 @@
     .principal {
         display: flex;
         align-items: center;
+        height: 100vh;
       }
       .name h2 {
         font-size: 7rem;
@@ -53,12 +39,14 @@
       }
   }
 
-  @media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) and (max-width: 570px) {
       .name h1, h2 {
         font-size: 3rem;
+        margin: auto;
       }
       .principal {
-        height: 70vh;
+        height: 80vh;
       }
-  }
+  };
+
   

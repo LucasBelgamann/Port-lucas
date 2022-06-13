@@ -1,0 +1,32 @@
+nav {
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.insta {
+    color: white;
+    font-size: 50px;
+}
+
+.linked {
+    color: white;
+    font-size: 50px;
+}
+
+.github {
+    color: white;
+    font-size: 50px;
+}
+
+#contact i:active {
+    color: red;
+}
+
+#contact div:hover {
+    background-color: red;
+    border-radius: 10%;
+}
+

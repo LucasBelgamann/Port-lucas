@@ -7,13 +7,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5rem
+    margin: 1rem
   }
   
   .hards {
     margin-top: 7rem;
     background-color: #000000;
-    height: 170vh;
   }
   
   .hards h1 {
@@ -89,21 +88,22 @@
       width: 25rem;
     }
   }
-  @media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) and (max-width: 570px) {
     .hards h1 {
       width: 80%;
     } 
     .hards-container i {
-      font-size: 7rem;
+      font-size: 9rem;
     }
     .hards-container {
       width: 90%;
       margin: auto;
     }
     .hards {
-      height: 145vh;
+      height: 170vh;
+      width: 100%;
     }
     .rtl img {
-      width: 10rem;
+      width: 13rem;
     }
   }
