@@ -46,7 +46,7 @@
   
   @media (min-width: 390px) and (max-width: 590px) {
       .about h1 {
-        width: 70%;
+        width: 75%;
         margin-top: 6rem;
       }
       .about {
