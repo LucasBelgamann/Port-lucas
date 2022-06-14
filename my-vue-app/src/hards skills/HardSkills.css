@@ -7,7 +7,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem
+    margin: 1rem;
   }
   
   .hards {
@@ -53,8 +53,13 @@
     color:dodgerblue;
   }
   
-  .node i {
-    color: green;
+  .jest img {
+    width: 16vw;
+    color: #F2F2F2;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15%;
+    margin: 15px;
   }
 
   .git-hub i {
@@ -100,10 +105,18 @@
       margin: auto;
     }
     .hards {
-      max-height: 200vh;
+      height: 140vh;
       width: 100%;
     }
     .rtl img {
       width: 13rem;
+    }
+    .jest img {
+      width: 32vw;
+      color: #F2F2F2;
+      background-color: white;
+      padding: 10px;
+      border-radius: 15%;
+      margin: 15px;
     }
   }
