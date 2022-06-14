@@ -1,6 +1,7 @@
 import React from "react";
 import './HardSkills.css';
 import octopusRtl from './octopusRtl.png';
+import jest from './jest-icon.png'
 
 class Hard extends React.Component {
   render() {
@@ -32,9 +33,9 @@ class Hard extends React.Component {
               <i class="fa-brands fa-github"></i>
               <h4>Git Hub</h4>
             </div>
-            <div className="node">
-            <i class="fa-brands fa-node"></i>
-              <h4>Node</h4>
+            <div className="jest">
+            <img src={ jest } alt="jest" />
+              <h4>Jest</h4>
             </div>
             <div className="rtl">
                 <img src={ octopusRtl } alt='RTL'></img>
