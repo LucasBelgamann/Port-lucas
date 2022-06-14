@@ -4,7 +4,7 @@ import "./Footer.css";
 class Footer extends React.Component {
   render() {
     return (
-      <div>
+      <div className="contact-pai">
         <nav id="contact">
           <div className="insta">
             <a href="http://www.instagram.com/lucasbelgamann" target="black">

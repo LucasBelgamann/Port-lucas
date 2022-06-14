@@ -1,7 +1,7 @@
 .foto-perfil {
     max-width: 50vw;
-    border-radius:  25%;
-    margin: 15% 25% 10%;
+    border-radius:  15%;
+    margin: 30% 25% 10%;
   }
   
   .name h2, h1 {
@@ -13,7 +13,7 @@
   }
   
   .name h1 {
-    color: red;
+    color: #034001;
   }
   
   .principal {
@@ -24,7 +24,7 @@
   @media screen and (min-width: 1200px) {
     .foto-perfil {
         width: 30vw;
-        margin: 1rem 13rem  5rem;
+        margin: 8rem 13rem  5rem;
     }  
     .principal {
         display: flex;
@@ -41,7 +41,7 @@
 
   @media screen and (min-width: 390px) and (max-width: 570px) {
       .name h1, h2 {
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin: auto;
       }
       .principal {

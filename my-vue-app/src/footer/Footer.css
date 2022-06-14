@@ -22,11 +22,11 @@ nav {
 }
 
 #contact i:active {
-    color: red;
+    color: #034001;
 }
 
 #contact div:hover {
-    background-color: red;
+    background-color: #034001;
     border-radius: 10%;
 }
 
