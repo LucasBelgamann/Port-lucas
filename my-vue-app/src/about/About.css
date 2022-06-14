@@ -16,11 +16,11 @@
   
   .about p {
     font-size: 4rem;
-    color: black;
+    color: white;
     margin: 0 auto;
     padding: 2rem;
     text-align: justify;
-    background-color: #dee1dc;
+    background-color: #034001;
     width: 90vw;
   }
   

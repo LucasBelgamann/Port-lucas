@@ -13,7 +13,7 @@
   }
   
   .name h1 {
-    color: #034001;
+    color: #03A63C;
   }
   
   .principal {
@@ -41,7 +41,7 @@
 
   @media screen and (min-width: 390px) and (max-width: 570px) {
       .name h1, h2 {
-        font-size: 3.5rem;
+        font-size: 3.0rem;
         margin: auto;
       }
       .principal {
