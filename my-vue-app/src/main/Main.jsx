@@ -1,5 +1,6 @@
 import React from 'react';
 import lucasPerfil from './LucasPortfolio.png';
+import port from './portBG.jpeg'
 import './Main.css';
 
 class Main extends React.Component {
@@ -8,7 +9,7 @@ class Main extends React.Component {
             <main>
                 <section className="principal">
                     <div className="photo">
-                        <img className="foto-perfil" src={ lucasPerfil } />
+                        <img className="foto-perfil" src={ port } />
                         </div>
                     <div className="name">
                         <h2>Hello, I'm</h2>

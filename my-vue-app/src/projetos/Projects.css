@@ -1,5 +1,5 @@
 .projetos h1 {
-    border: 7px solid red;
+    border: 8px solid #034001;
     padding: 10px;
     background-color: #000000;
     width: 50%;
@@ -26,6 +26,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
   }
   
   .gambis {
@@ -42,9 +43,11 @@
       width: 80vw;
       margin: auto;
     }
+    
     .projetos i:hover {
       transform: rotate(2deg);
     }
+
     .projetos h1 {
       margin-top: 2rem;
       width: 25%;
@@ -62,3 +65,57 @@
       height: 100vh;
     }
   }
+
+  /* .description {
+    color: white;
+    position: absolute;
+    top: 7vh;
+    right: 0;
+    width: 30vw;
+    border-radius: 10%;
+    background-color: black;
+    transform: translateY(-6%);
+    z-index: 2;
+  }
+  
+  .description_active {
+      display: none;
+  }
+
+  .junim {
+    position: relative;
+  } */
+
+  /* @media screen and (min-width: 900px) {
+    .description p {
+      font-size: 1rem;
+      height: 20vh;
+      color: white;
+      padding: 4rem;
+      text-align: justify;
+    }
+    .description h3 {
+      width: 20vw;
+      margin: 1rem auto 0;
+      border: red solid 5px;
+      text-align: center;
+    }
+  }
+
+  @media  screen and (max-width: 700px) {
+    .description {
+      height: 30vh;
+      width: 60vw;
+      transform: translateX(-30%);
+    }
+    .description p {
+      font-size: 12px;
+      padding: 2rem;
+      text-align: justify;
+    }
+    .description h3 {
+      text-align: center;
+      margin: 1rem;
+      border: red solid 5px;
+    }
+  } */
