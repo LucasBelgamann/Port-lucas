@@ -17,7 +17,8 @@ function Projetos() {
         <h1>Projects</h1>
         <div className="projetos-lista">
           <div>
-            <i class="fa-solid fa-folder-open"></i>
+            <a href="https://spoti-tunes.vercel.app/" target="blanck"><i class="fa-solid fa-folder-open"></i></a>
+            <h2>SpotiTunes</h2>
           </div>
           <div>
             <i class="fa-solid fa-folder-open"></i>
