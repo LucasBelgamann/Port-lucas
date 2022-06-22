@@ -1,0 +1,47 @@
+.certificados h1 {
+    border: 8px solid #034001;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto 8rem;
+}
+
+.certificados {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.o-pai {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.certificate img {
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.certificate img:hover {
+   transform: translateY(3px);
+}
+
+.certificate h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.gambis {
+    height: 5vh;
+}
+
+@media screen and (min-width: 390px) and (max-width: 570px){
+    .certificate img {
+        width: 40vw;
+        margin: 0 4rem;
+    }
+    .certificados h1 {
+        width: 78%;
+    }
+}

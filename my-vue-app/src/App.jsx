@@ -6,6 +6,7 @@ import About from './about/About';
 import Projetos from './projetos/Projects';
 import Hard from './hards skills/HardSkills';
 import Footer from './footer/Footer';
+import Certific from './certificat/Cetific';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Hard />
       <Projetos />
+      <Certific />
       <Footer />
     </div>
   )
