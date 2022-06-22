@@ -18,7 +18,16 @@
     padding: 1rem;
     border-radius: 15%;
     margin: 1rem;
+  }
+
+  .projects {
     background-color: #034001;
+    margin: 0.6rem;
+    border-radius: 20px;
+  }
+
+  .projects h3 {
+    color: white;
   }
   
   .projetos-lista {
@@ -33,7 +42,7 @@
     height: 1vh;
   }
 
-  .projetos-lista h5 {
+  .projetos-lista h3 {
     text-align: center;
   }
 
@@ -57,8 +66,15 @@
       width: 25%;
     }
     .projetos {
-      height: 130vh;
+      height: 145vh;
     }
+    .projects {
+      margin: 2rem;
+      padding: 2.5rem;
+    }
+    .projects h3 {
+      font-size: 2.5rem;
+    } 
   }
 
   @media screen and (min-width: 390px) and (max-width: 570px) {
@@ -68,58 +84,10 @@
     .projetos {
       height: 100vh;
     }
-  }
-
-  /* .description {
-    color: white;
-    position: absolute;
-    top: 7vh;
-    right: 0;
-    width: 30vw;
-    border-radius: 10%;
-    background-color: black;
-    transform: translateY(-6%);
-    z-index: 2;
-  }
-  
-  .description_active {
-      display: none;
-  }
-
-  .junim {
-    position: relative;
-  } */
-
-  /* @media screen and (min-width: 900px) {
-    .description p {
-      font-size: 1rem;
-      height: 20vh;
-      color: white;
-      padding: 4rem;
-      text-align: justify;
+    .projetos i {
+      font-size: 7rem;
     }
-    .description h3 {
-      width: 20vw;
-      margin: 1rem auto 0;
-      border: red solid 5px;
-      text-align: center;
+    .projects {
+      padding: 1.1rem;
     }
   }
-
-  @media  screen and (max-width: 700px) {
-    .description {
-      height: 30vh;
-      width: 60vw;
-      transform: translateX(-30%);
-    }
-    .description p {
-      font-size: 12px;
-      padding: 2rem;
-      text-align: justify;
-    }
-    .description h3 {
-      text-align: center;
-      margin: 1rem;
-      border: red solid 5px;
-    }
-  } */

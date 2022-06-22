@@ -16,23 +16,24 @@ function Projetos() {
         <div className="gambis"></div>
         <h1>Projects</h1>
         <div className="projetos-lista">
-          <div>
+          <div className="projects">
             <a href="https://spoti-tunes.vercel.app/" target="blanck"><i class="fa-solid fa-folder-open"></i></a>
-            <h5>SpotiTunes</h5>
+            <h3>SpotiTunes</h3>
           </div>
-          <div>
+          <div className="projects">
+            <a href="https://triunfo-three.vercel.app/" target="blanck"><i class="fa-solid fa-folder-open"></i></a>
+            <h3>Card Triunfo</h3>
+          </div>
+          <div className="projects">
             <i class="fa-solid fa-folder-open"></i>
           </div>
-          <div>
+          <div className="projects">
             <i class="fa-solid fa-folder-open"></i>
           </div>
-          <div>
+          <div className="projects">
             <i class="fa-solid fa-folder-open"></i>
           </div>
-          <div>
-            <i class="fa-solid fa-folder-open"></i>
-          </div>
-          <div>
+          <div className="projects">
             <i class="fa-solid fa-folder-open"></i>
           </div>
         </div>
