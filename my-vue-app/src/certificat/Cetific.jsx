@@ -18,7 +18,7 @@ class Certific extends React.Component {
               alt="trybe"
             />
           </a>
-          <h3>Fundamentos</h3>
+          <h3>Fundaments</h3>
         </div>
         </div>
       </div>

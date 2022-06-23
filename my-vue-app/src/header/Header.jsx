@@ -11,7 +11,7 @@ function NavBar() {
     return (
         <div className="nav_pai">
         <nav className="nav">
-            <a href="#" className="nav_brand">Portfólio</a>
+            <a href="#" className="nav_brand">Portfolio</a>
             <ul className={ active }>
                 <li className="nav_item"><a href="#about-me" className="nav_link">About me</a></li>
                 <li className="nav_item"><a href="#hards-skills" className="nav_link">Hards Skills</a></li>
