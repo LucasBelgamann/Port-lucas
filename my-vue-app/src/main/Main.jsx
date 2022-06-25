@@ -1,5 +1,5 @@
 import React from 'react';
-import lucasPerfil from './LucasPortfolio.png';
+import lucasPerfil from './lucasPortBgn2.png';
 import port from './portBG.jpeg'
 import './Main.css';
 
@@ -9,7 +9,7 @@ class Main extends React.Component {
             <main>
                 <section className="principal">
                     <div className="photo">
-                        <img className="foto-perfil" src={ port } />
+                        <img className="foto-perfil" src={ lucasPerfil } />
                         </div>
                     <div className="name">
                         <h2>Hello, I'm</h2>
