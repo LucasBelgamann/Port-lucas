@@ -1,6 +1,5 @@
 import React from 'react';
-import lucasPerfil from './lucasPortBgn2.png';
-import port from './portBG.jpeg'
+import lucasPerfil from './lucasPortBgn.png';
 import './Main.css';
 
 class Main extends React.Component {
