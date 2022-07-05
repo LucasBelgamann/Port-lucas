@@ -25,7 +25,8 @@ function Projetos() {
             <h3>Card Triunfo</h3>
           </div>
           <div className="projects">
-            <i class="fa-solid fa-folder-open"></i>
+            <a href="https://trivia-orcin.vercel.app/" target="blanck"><i class="fa-solid fa-folder-open"></i></a>
+            <h3>Game Trivia</h3>
           </div>
           <div className="projects">
             <i class="fa-solid fa-folder-open"></i>
